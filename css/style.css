@@ -222,7 +222,7 @@ body {
 
 .spollers__body {
   padding: 1.25rem 0;
-  will-change: transform;
+  will-change: all;
 }
 
 .spollers__inner {
@@ -1226,7 +1226,7 @@ body {
 
 .qa__body {
   padding: 1.25rem 0 0 0;
-  will-change: transform;
+  will-change: all;
 }
 
 .qa__text {
@@ -1282,7 +1282,7 @@ body {
   }
 
   .main-block__container {
-    padding-bottom: 4.375rem;
+    padding-bottom: 2.1875rem;
   }
 
   .main-block__title {
@@ -1406,7 +1406,7 @@ body {
   }
 
   .for-whom {
-    padding-top: 4.375rem;
+    padding-top: 2.1875rem;
   }
 
   .for-whom {
@@ -1972,7 +1972,7 @@ body {
   }
 
   .main-block__container {
-    padding-bottom: 1.25rem;
+    padding-bottom: 1.875rem;
   }
 
   .main-block__title {
@@ -2100,7 +2100,7 @@ body {
   }
 
   .for-whom {
-    padding-top: 1.25rem;
+    padding-top: 1.875rem;
   }
 
   .for-whom {
@@ -2433,15 +2433,15 @@ body {
     }
 }
 
-@supports (padding-bottom: clamp( 1.25rem , -0.892706637rem  +  7.1426530671vw , 4.375rem )) {
+@supports (padding-bottom: clamp( 1.875rem , 1.6607293363rem  +  0.7142653067vw , 2.1875rem )) {
     .main-block__container {
-      padding-bottom: clamp( 1.25rem , -0.892706637rem  +  7.1426530671vw , 4.375rem );
+      padding-bottom: clamp( 1.875rem , 1.6607293363rem  +  0.7142653067vw , 2.1875rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1.25rem , -0.892706637rem  +  7.1426530671vw , 4.375rem )) {
+@supports not (padding-bottom: clamp( 1.875rem , 1.6607293363rem  +  0.7142653067vw , 2.1875rem )) {
     .main-block__container {
-      padding-bottom: calc(1.25rem + 3.125 * (100vw - 29.99875rem) / 43.75125);
+      padding-bottom: calc(1.875rem + 0.3125 * (100vw - 29.99875rem) / 43.75125);
     }
 }
 
@@ -2805,15 +2805,15 @@ body {
     }
 }
 
-@supports (padding-top: clamp( 1.25rem , -0.892706637rem  +  7.1426530671vw , 4.375rem )) {
+@supports (padding-top: clamp( 1.875rem , 1.6607293363rem  +  0.7142653067vw , 2.1875rem )) {
     .for-whom {
-      padding-top: clamp( 1.25rem , -0.892706637rem  +  7.1426530671vw , 4.375rem );
+      padding-top: clamp( 1.875rem , 1.6607293363rem  +  0.7142653067vw , 2.1875rem );
     }
 }
 
-@supports not (padding-top: clamp( 1.25rem , -0.892706637rem  +  7.1426530671vw , 4.375rem )) {
+@supports not (padding-top: clamp( 1.875rem , 1.6607293363rem  +  0.7142653067vw , 2.1875rem )) {
     .for-whom {
-      padding-top: calc(1.25rem + 3.125 * (100vw - 29.99875rem) / 43.75125);
+      padding-top: calc(1.875rem + 0.3125 * (100vw - 29.99875rem) / 43.75125);
     }
 }
 
