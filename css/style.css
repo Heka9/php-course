@@ -1226,12 +1226,7 @@ body {
 
 .qa__body {
   padding: 1.25rem 0 0 0;
-}
-
-.qa__text {
-  color: #191919;
-  font-weight: 500;
-  line-height: 1.2142857143;
+  will-change: transform;
 }
 
 .qa__text {
