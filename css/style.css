@@ -222,6 +222,7 @@ body {
 
 .spollers__body {
   padding: 1.25rem 0;
+  will-change: transform;
 }
 
 .spollers__inner {
