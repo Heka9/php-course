@@ -443,15 +443,7 @@ body {
   text-transform: uppercase;
 }
 
-.main-block__title mark {
-  background-color: transparent;
-}
-
-.main-block__title > span {
-  white-space: nowrap;
-}
-
-.main-block__title .blue {
+.main-block__title span {
   color: #0038ff;
 }
 
@@ -1725,10 +1717,6 @@ body {
   .touch [data-fp] {
     -webkit-transition: height 0.2s;
     transition: height 0.2s;
-  }
-
-  .main-block__title > span {
-    white-space: wrap;
   }
 
   .main-block__response {
