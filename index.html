@@ -6,7 +6,7 @@
 	<meta charset="UTF-8" />
 	<meta name="format-detection" content="telephone=no" />
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230704155833" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230705211220" />
 	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -214,9 +214,9 @@
 							<div class="item-emotional__text">
 								<p>
 									Вот ориентир зарплат, на которые ты можешь
-									<a target="_blank" href="https://prnt.sc/EuMHP4sgFXWd">расчитывать</a> Зарабатываешь в
-									долларах и можешь позволять себе достойную жизнь с гаджетами, авто и местами где приятно
-									жить
+									<a data-popup="#popup" href="#">расчитывать</a>
+									Зарабатываешь в долларах и можешь позволять себе достойную жизнь с гаджетами, авто и
+									местами где приятно жить
 								</p>
 							</div>
 						</article>
@@ -582,7 +582,17 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230704155833"></script>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<img src="img/popup-image.webp" alt="Salary statistic" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230705211220"></script>
 </body>
 
 </html>
