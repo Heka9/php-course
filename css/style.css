@@ -286,9 +286,12 @@ body::after {
           transform: rotate(45deg);
 }
 
+.popup__content {
+  text-align: center;
+}
+
 .popup__content img {
   max-width: 100%;
-  text-align: center;
 }
 
 .spollers {
