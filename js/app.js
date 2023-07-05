@@ -236,7 +236,7 @@
     class Popup {
         constructor(options) {
             let config = {
-                logging: true,
+                logging: false,
                 init: true,
                 attributeOpenButton: "data-popup",
                 attributeCloseButton: "data-close",
